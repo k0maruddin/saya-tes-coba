@@ -1,0 +1,17 @@
+{
+  "name": "belejarapikuncie",
+  "version": "1.0.0",
+  "description": "Belajar API Automasi Kuncie Part 1",
+  "main": "index.js",
+  "scripts": {
+    "check_version_mocha": "npx mocha --version",
+    "testing-api": "npx mocha testing/**/*.js"
+  },
+  "author": "Komaruddin",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  }
+}
